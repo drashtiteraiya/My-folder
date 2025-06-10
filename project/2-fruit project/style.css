@@ -1,0 +1,11 @@
+html{
+	scroll-behavior: smooth;
+}
+.navbar-brand img{
+	transform: rotate(90deg);
+	height: 50px;
+	width: 50px;
+}
+#nav{
+	
+}

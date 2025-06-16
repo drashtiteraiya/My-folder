@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fill method</title>
+</head>
+<body>
+	<h1>Javascript Arrays</h1>
+	<h2>The fill() Method</h2>
+
+	<p>fill() method fills specified elements in an array with a value.</p>
+	<p>fill all array elements with "kiwi":</p>
+	<u><p id="demo"></p></u>
+
+	<p>Fill the last two array elements with "Kiwi":</p>
+	<u><p id="demo2"></p></u>
+</body>
+<script type="text/javascript">
+	const fruits = ["Banana", "Orange", "Apple", "Mango"];
+	document.getElementById("demo").innerHTML = fruits.fill("kiwi");
+ 	
+ 	const veggies = ["Tomato", "Potato", "Carrot", "Broccoli"];
+ 	document.getElementById("demo2").innerHTML = veggies.fill("Beetroot",2,4);
+</script>
+</html>

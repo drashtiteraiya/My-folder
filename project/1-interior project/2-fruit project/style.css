@@ -1,0 +1,323 @@
+html{
+	scroll-behavior: smooth;
+}
+body
+{
+	overflow-x: hidden;
+}
+#nav{
+	background-image: url('bgimg.png');
+}
+#drpdwn
+{
+	background-image: url('headerimg.png');
+	background-position: top;
+	background-size: cover;
+}
+#HOME{
+	background-image: url('headerimg.png');
+	background-position: top;
+}
+#homea1
+{
+	font-size: 48px;
+	font-family: Righteous;
+	margin-top: 15% !important;
+}
+#homea2
+{
+	font-family: Righteous;
+}
+#homea3
+{
+	width: 80%;
+	font-family: poppins;
+	word-spacing: 2px;
+}
+#homea4
+{
+	color: darkorange;
+}
+#homea5
+{
+	padding-left: 14%!important;
+}
+#ABOUT{
+	background: #F3F3F1;
+}
+#abouta6
+{
+	background-image: url('img.png');
+	background-position: right;
+}
+#abouta8
+{
+	width: 80%;
+	font-family: poppins;
+	word-spacing: 1px;
+}
+#abouta9
+{
+	background: #f57913;
+}
+#abouta10
+{
+	color: darkorange;
+}
+#abouta7{
+	font-size: 48px;
+	font-family: Righteous;
+	margin-top: 15% !important;
+}
+#CONTACT
+{
+	height: 620px;
+	background: url('img2.jpg');
+	background-size: cover;
+	background-position: top;
+}
+#contact11
+{
+	font-size: 48px;
+	font-family: Righteous;
+	margin-left: 28%!important;
+}
+#contactform
+{
+	background: #f3f3f1;
+	height: 450px;
+	width: 80%;
+	padding: 40px !important;
+}
+#contactbtn
+{
+	background: darkorange;
+	border: none;
+}
+#SERVICES
+{
+	height: 500px;
+	background-image: url('servicebg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#servicea13{
+	font-size: 48px;
+	font-family: Righteous;
+	margin-top: 15% !important;
+}
+#servicea14
+{
+	width: 80%;
+	font-family: poppins;
+	word-spacing: 2px;
+}
+#serviceimg
+{
+	height: 460px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	width: 85%;
+}
+#TESTIMONIALS{
+	height: 450px;
+}
+#row{
+	height: inherit;
+}
+#testimonialp{
+	margin-top: -5%;
+}
+.card-title
+{
+	font-family: Righteous;
+}
+#testimonialimg {
+	height: 140px;
+	width: 18%; 
+	margin-top: -8% !important;
+  	border-radius: 50%;
+  	border: 10px solid orangered;
+}
+.card-body>p
+{
+	width: 90%;
+	margin-left: 5%;
+}
+#footerheading
+{
+	color: darkorange;
+}
+
+/*@media (min-width: 1200px) and (max-width: 1400px) { 
+
+ }*/
+@media (min-width: 992px) and (max-width: 1199px){
+	#emailHelp{
+		font-size: 13px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	#HOME{
+		height: 450px;
+	}
+	#homea3{
+		width: 100%;
+	}
+	#ABOUT{
+		height: 450px;
+	}
+	#abouta8{
+		width: 90%;
+	}
+	#contact11{
+		margin-left: 14% !important;
+	}
+	#contactform{
+		width: 100%;
+		margin-left: -3% !important;
+		height: 480px;
+	}
+	#SERVICES{
+		height: 540px;
+	}
+	#servicea14{
+		width: 100%;
+	}
+	#serviceimg{
+		margin-top: 8% !important;
+	}
+	#TESTIMONIALS{
+		height: 530px;
+	}
+	#testimonialp{
+		font-size: 15px;
+	}
+	#footerh1{
+		font-size: 30px;
+	}
+	#footerp{
+		font-size: 14px;
+	}
+}
+@media (min-width: 481px) and (max-width: 767px){
+	#emailHelp{
+		font-size: 12px;
+	}
+	#contactform{
+		height: 450px;
+	}
+	#ABOUT{
+		height: 155vh;
+	}
+	#abouta6{
+		height: 440px;
+		text-align: center !important;
+	}
+	#abouta8{
+		width: 90%;
+		margin-left: 5%;
+	}	
+	#SERVICES{
+		height: 140vh;
+	}
+	#servicesa12{
+		text-align: center !important;
+		margin-top: -8%;
+	}
+	#servicea13{
+		font-size: 38px;
+	}
+	#servicea14{
+		text-align: center;
+		width: 95%;
+	}
+	#serviceimg{
+		width: 95%;
+	}
+	#contact11{
+		margin-left: 34% !important;
+		width: 32%;
+	}
+	#contactform{
+		width: 85%;
+	}
+	#emailHelp{
+		font-size: 16px;
+	}
+	#TESTIMONIALS{
+		height: 560px;
+	}
+	#testimonialp{
+		margin-top: -10% !important;
+	}
+	#testimonialimg{
+		margin-top: -18% !important;
+		width: 30%;
+	}
+	.card-text{
+		font-size: 15px;
+	}
+	#footerp{
+		font-size: 14px;
+	}
+}
+@media (min-width: 200px) and (max-width: 480px){
+	#ABOUT{
+		height: 115vh;
+	}
+	#abouta6{
+		text-align: center !important;
+		height: 400px;	
+	}
+	#abouta8{
+		width: 100%;
+	}
+	#contactform{
+		width: 94%;
+		margin-left: 1% !important;
+	}
+	#contact11{
+			margin-left: 20% !important;
+	}
+	#SERVICES{
+		height: 110vh;
+	}
+	#servicesa12{
+		text-align: center !important;
+		margin-top: -8%;
+	}
+	#servicea13{
+		font-size: 38px;
+	}
+	#servicea14{
+		text-align: center;
+		width: 95%;
+	}
+	#serviceimg{
+		width: 95%;
+		height: 400px;
+	}
+	#TESTIMONIALS{
+		height: 600px;
+	}
+	#testimonialimg{
+		margin-top: -18% !important;
+		width: 30%;
+	}
+	.card-text{
+		font-size: 15px;
+	}
+	#footerp{
+		font-size: 14px;
+	}
+	#footerh1{
+		font-size: 30px;
+	}
+	#footerp{
+		font-size: 14px;	
+	}
+
+}

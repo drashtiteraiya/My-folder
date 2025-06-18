@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Find index of</title>
+</head>
+<body>
+	<h1>Javascript Arrays</h1>
+	<h2>findIndex()</h2>
+	<p>findIndex() retirns the value of the first element that passses a test (provided by a function).</p>
+
+	<p id="demo"></p>
+</body>
+<script type="text/javascript">
+	const ages = [2,10,18,20];
+
+	document.getElementById("demo").innerHTML = ages.findIndex(checkAge);
+
+	function checkAge(age) {
+		return age > 18;
+	}
+
+</script>
+</html>

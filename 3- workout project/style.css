@@ -1,0 +1,419 @@
+html{
+	scroll-behavior: smooth;
+}
+body
+{
+	overflow-x: hidden;
+}
+.logo
+{
+	font-size: 35px;
+	line-height: 20px;
+}
+#mainul>li>a
+{
+	padding-left: 50px !important;
+}
+#HOME
+{
+	background-image: url('navbg.png');
+	height: 580px;
+	background-size: cover;
+}
+#hometext
+{
+	margin: 30% 0 0 4%; /*top, right, bottom, left*/ 
+}
+#ICONSECTION>p
+{
+	font-size: 18px; 
+	line-height: 20px;
+	word-spacing: 2px;
+	color: #4F4F4F;
+}
+#h1sec1
+{
+	font-size: 38px;
+}	
+#sec1p{
+	color: #4F4F4F;
+	width: 92%;
+}
+#h1sec2
+{
+	font-size: 38px;
+}
+#sec2p{
+	color: #4F4F4F;
+	width: 92%;
+}
+#SECTION3
+{
+	height: 360px;
+	background-image: url('sec3bg.png');
+	background-size: cover;
+	background-position: bottom;
+	padding-top: 12%;
+}
+#SECTION3>h1
+{
+	font-size: 64px;
+	text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+#h1sec4
+{
+	font-size: 38px;
+}	
+#sec4p{
+	color: #4F4F4F;
+	width: 92%;
+}
+.card-img-top
+{
+	height: 300px;
+	width: 100% !important;
+}
+#a1{
+	width: 30%;
+	margin-left: -15%;
+}
+#a2{
+	width: 24%;
+}
+#a3{
+	width: 20%;
+	margin-right: -10% !important;
+}
+#a14{
+	width: 20%;
+	margin-right: -10% !important;
+}
+#link
+{
+	width: 10%;
+	font-size: 30px;
+}
+#heading
+{
+	font-size: 20px;
+	line-height: 24px;
+	text-transform: capitalize;
+	width: 100%;
+/*	border: 1px solid black;*/
+}
+#mail
+{
+	margin-left: -2%;
+}
+#input
+{
+	width: 20% !important;
+}
+#a6{
+	font-size: 14px;
+}
+#a5
+{
+	width: 48%;
+}
+#a7{
+	width: 52%;
+}
+#a8{
+	margin-left: -1%;
+}
+#social{
+	margin-top: -6%;
+	margin-left: -5%;
+	width: 10%;
+}
+#a19{
+	margin-left: -35%;
+}					
+/*@media (min-width: 1200px) and (max-width: 1400px) {}*/
+@media (min-width: 992px) and (max-width: 1199px){}
+@media (min-width: 768px) and (max-width: 991px){
+	#a12{
+		border: 1px solid black;
+		width: 30%;
+		display: none !important;
+	}
+	#link{
+		width: 20%;
+	}
+	#heading{
+		font-size: 12px;
+		margin-left: -10%;
+	}
+	#h1sec4{
+		font-size: 30px;
+	}
+	#a21>img{
+		height: 500px !important;
+	}
+	#h1sec2{
+		font-size: 26px;
+	}
+	#a22>img{
+		height: 480px !important;
+		margin-top: 10%;
+	}
+	#h1sec1{
+		font-size: 28px;
+	}
+	#social{
+		margin-top: -4.5%;
+		margin-left: 98%;
+	}
+}
+@media (min-width: 481px) and (max-width: 767px){
+	#a12{
+		margin-top: -18%;
+		width: 30% ;
+		display: inline !important;
+		margin-left: 46%;
+	}
+	#a12>a{
+		width: 20%;
+		padding: 5px;
+		font-size: 25px;
+		line-height: 20px !important;
+/*		display: inline !important;*/
+		display: none !important;
+	}
+	#navbar-toggler>span{
+		font-size: 22px;
+	}
+	#hometext{
+		margin-top: 80%;
+		margin-left: -5%;
+	}
+	#ICONSECTION>p{
+		word-spacing: 3px;
+		font-size: 17px;
+	}
+	#SECTION3>h1{
+		font-size: 32px;
+		text-align: center;
+		margin-top: 18%;
+	}
+	#link{
+		width: 30%;
+		margin-top: -2.5%;
+		font-size: 22px;
+	}
+	.card-img-top
+	{
+		height: 300px;
+	}
+	#a1
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+	#a2
+	{
+		width: 50%;
+	}
+	#a3{
+		width: 30%;
+	}
+	#a14{
+		width: 100% ;
+	}
+	#heading{
+		text-align: center;
+	}
+	#a7{
+		text-align: center;
+	}
+	#navbarNav{
+		text-align: center !important;
+	}
+	#a15{
+		margin-left: 10%;
+		border-bottom: 1px solid gray;
+	}
+	#social{
+		margin-top: 2%;
+		margin-left: 10%;
+		width: 80%;
+	}
+	#arwbtn{
+		margin-left: 60%;
+		border: none;
+	}
+	#arwbtn1{
+		margin-left: 58%;
+		border: none;
+	}
+	#arwbtn2{
+		margin-left: 54%;
+		border: none;
+	}
+	#CONTACT{
+		height: 400PX;
+	}
+	#a6{
+		height: 400px;
+	}
+	#social>ul{
+		display: flex;
+		margin-left: 30%;
+		border: none;
+	}
+	#a19{
+		margin-left: 0px !important;
+		border-bottom: 1px solid gray !important;
+		margin-top: -13%;
+	}
+	#a20{
+		padding-left: 27vh !important;
+	}
+	#h1sec4{
+		font-size: 30px;
+	}
+	#h1sec2{
+		font-size: 28px;
+	}
+	#h1sec1{
+		font-size: 28px;
+	}
+}
+@media (min-width: 200px) and (max-width: 480px){
+	#a12{
+		margin-top: -18%;
+		width: 30% ;
+		display: inline !important;
+		margin-left: 46%;
+	}
+	#a12>a{
+		display: inline !important;
+		width: 20%;
+		padding: 5px;
+		font-size: 25px;
+		line-height: 20px !important;
+		display: none !important;
+	}
+	#navbar-toggler>span{
+		font-size: 22px;
+	}
+	#hometext{
+		margin-top: 110%;
+		margin-left: -5%;
+	}
+	#ICONSECTION>p{
+		word-spacing: 3px;
+		font-size: 17px;
+	}
+	#SECTION3>h1{
+		font-size: 32px;
+		text-align: center;
+		margin-top: 18%;
+	}
+	#link{
+		width: 30%;
+		margin-top: -2.5%;
+		font-size: 22px;
+	}
+	.card-img-top
+	{
+		height: 300px;
+	}
+	#a1
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+	#a2
+	{
+		width: 50%;
+	}
+	#a3{
+		width: 30%;
+	}
+	#a14{
+		width: 100% ;
+	}
+	#heading{
+		text-align: center;
+	}
+	#a7{
+		text-align: center;
+	}
+	#navbarNav{
+		text-align: center !important;
+	}
+	#a15{
+		margin-left: 10%;
+		border-bottom: 1px solid gray;
+	}
+	#social{
+		margin-top: 2%;
+		margin-left: 10%;
+		width: 80%;
+	}
+	#arwbtn{
+		margin-left: 60%;
+		border: none;
+	}
+	#arwbtn1{
+		margin-left: 58%;
+		border: none;
+	}
+	#arwbtn2{
+		margin-left: 54%;
+		border: none;
+	}
+	#CONTACT{
+		height: 400PX;
+	}
+	#a6{
+		height: 400px;
+	}
+	#social>ul{
+		display: flex;
+		margin-left: 30%;
+		border: none;
+	}
+	#a19{
+		margin-left: 0px !important;
+		border-bottom: 1px solid gray !important;
+		margin-top: -15.5%;
+	}
+	#a20{
+		padding-left: 27vh !important;
+	}
+	#h1sec4{
+		font-size: 30px;
+	}
+	#h1sec2{
+		font-size: 28px;
+	}
+	#h1sec1{
+		font-size: 28px;
+	}
+}
+
+						/*STYLESHEET MAINPAGE END*/
+						/*WORKOUT PLANS CSS*/
+
+#HOMEMAIN
+{
+	background-image: url('WORKOUTBG.png') ;
+	height: 580px;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

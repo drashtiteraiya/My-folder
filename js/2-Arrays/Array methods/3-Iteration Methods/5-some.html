@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Some Method</title>
+</head>
+<body>
+	<h1>Javascript Arrays</h1>
+	<h2> The Some() Method</h2>
+
+	<p>The Array.some() method checks if any of the elements in an array pass a test(provided as a function).</p>
+	<h5>if any of them more than 18</h5>
+	<p id="demo"></p>
+
+	<h5>if any of them less than 18</h5>
+	<p id="demo2"></p>
+</body>
+<script type="text/javascript">
+	const ages = [3, 10, 18, 20];
+	document.getElementById("demo").innerHTML = ages.some(checkAdult);
+
+	function checkAdult(age){
+		return age > 18;
+	}
+	const less = [18, 20, 22, 24];
+	document.getElementById("demo2").innerHTML = less.some(checkChild);
+
+	function checkChild(age){
+		return age < 18;
+	}
+</script>
+</html>

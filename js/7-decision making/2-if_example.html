@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>if condtion</title>
+</head>
+<body>
+	<p>Display "Good Day" if hour is less than 18:00</p>
+	<p id="demo">Good Evening!</p>
+</body>
+<script type="text/javascript">
+
+	if (new Date().getHours() < 18) {
+		document.getElementById("demo").innerHTML = "Good Day!";
+	}
+	
+</script>
+</html>

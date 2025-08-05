@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Truthy & Falsy value</title>
+</head>
+<body>
+	<h1>concept of truthy and falsy values in JavaScript, and how it relates to JavaScript Booleans.</h1>
+</body>
+<script>
+	let values = [0, "", null, undefined, NaN, 1, "hello", {}, []];
+
+values.forEach(value => {
+    if (value) {
+        console.log(`${value} is truthy`);
+    } else {
+        console.log(`${value} is falsy`);
+    }
+});
+
+</script>
+</html>

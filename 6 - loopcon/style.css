@@ -1,0 +1,240 @@
+header
+{
+    background:  #00adef;
+/* background: darkred; */
+    height: 38px;
+}
+nav{
+    height: 44px;
+}
+#navlogo
+{
+    /* border: 2px solid black; */
+    height: 58px;
+    width: 6%;
+    margin-left: 6%;
+}
+#navlogo>img
+{
+    height: 58px;
+    width: 100%;
+}
+#navul
+{
+    margin-left: 5%;
+}
+#navtext>span>a
+{
+    color: #ff6138;
+    font-weight: 700;
+    padding: 23px; 
+    font-size: 18px;
+}
+#navtext>a
+{
+    color: black;
+    font-weight: 700;
+    padding: 23px;
+    font-size: 18px;
+    text-decoration: none;
+/*    border: 1px solid black;*/
+}
+#navbtn
+{
+    margin-right: 5%;
+    background: #ff6138;
+    height: 38px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 12%;
+    border-radius: 7px;
+    border: none;
+}
+#navbtn>a{
+    text-decoration: none;
+}
+// #conatct2
+// {
+    /* margin-right: -10%; */
+// }
+#home{
+    height: 500px;
+    /* border: 1px solid black; */
+}
+#sliderimg1{
+    height: 500px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 70px;   /* default is 20px */
+  height: 70px;  /* default is 20px */
+  background-size: 100% 100%;
+}
+#slidertext{
+    height: 335px;
+    width: 80%;
+    margin-left: -5%;
+    /* border: 1px solid black; */
+    margin-bottom: 8% !important;
+}
+#sliderlogo{
+    /* border: 2px solid white; */
+    height: 200px;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: -4%;
+}
+#sliderlogo>img{
+    height: 100%;
+    width: 100%;
+}
+.carousel-caption>h1{
+    font-size: 52px;
+    margin-top: -1%;
+    font-family: "Muli", Sans-serif;
+}
+.carousel-caption>p{
+    font-size: 19px;
+    /* border: 1px solid black; */
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    width: 86%;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+.carousel-caption>h2{
+    font-size: 42px;
+}
+#carouselExample{
+    transition: transform 1s ease, opacity 1s ease;
+  }
+  
+
+
+/*// @include media-breakpoint-up(xxl) { ... }*/
+ /* @media screen and (min-width: 1400px) {} */
+
+/*// @include media-breakpoint-only(xl) { ...}*/
+@media (min-width: 1200px) and (max-width: 1399.98px)  {
+    nav{
+        /* border: 2px solid black; */
+        height: 60px;
+    }
+    #navtext>span>a{
+        font-size: 18px;
+        padding: 20px;
+    }
+    #navtext>a{
+        font-size: 18px;
+        padding: 20px;
+    }
+    #navbtn{
+        margin-right: 2%;
+    }
+  
+}
+  
+/*// @include media-breakpoint-only(lg) { ... }*/
+ @media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    nav{
+        /* border: 2px solid black; */
+        height: 60px;
+    }
+    #navlogo{
+        margin-left: 1%;
+        height: 65px;
+        /* border: 2px solid black; */
+    }   
+    #navtext>span>a{
+        font-size: 16px;
+        padding: 15px;
+    }
+    #navtext>a{
+        font-size: 16px;
+        padding: 15px;
+    }
+    #navbtn{
+        font-size: 13px;
+    }
+ }
+
+/*// @include media-breakpoint-only(md) { ... }*/
+ @media (min-width: 768px) and (max-width: 991.98px) {
+    #navlogo{
+        width: 16%;
+        height: 68px;
+    }
+    #navtext>span>a{
+        text-align: center;
+    }
+    #Toggle{
+        margin-right: 8%;
+        /* width: 20%; */
+        font-size: 25px;
+    }
+    #navtext>a{
+        text-align: center;
+    }
+    #navbtn{
+        width: 28%;
+        font-size: 14px;
+        margin-left: 38% !important;
+        align-items: center;
+    }
+}
+
+/*// @include media-breakpoint-only(sm) {...}*/
+@media (min-width: 576px) and (max-width: 767.98px){
+
+    #navlogo{
+        width: 16%;
+        height: 64px;
+        /* border: 2px solid black; */
+    }
+    #navtext>span>a{
+        text-align: center;
+    }
+    #Toggle{
+        margin-right: 8%;
+        /* width: 20%; */
+        font-size: 25px;
+    }
+    #navtext>a{
+        text-align: center;
+    }
+    #navbtn{
+        width: 28%;
+        font-size: 14px;
+        margin-left: 38% !important;
+        align-items: center;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 575.98px) {
+    #contact1{
+        height: 25px;
+    }
+    #contact1>i{
+        font-size: 10px;
+    }
+    #navlogo{
+        width: 20%;
+        margin-top: -2%;
+    }
+    #navtext>span>a{
+        text-align: center;
+    }
+    #Toggle{
+        margin-right: 4%;
+    }
+    #navtext>a{
+        text-align: center;
+    }
+    #navbtn{
+        width: 42%;
+        font-size: 14px;
+        margin-left: 30% !important;
+        align-items: center;
+    }
+  }

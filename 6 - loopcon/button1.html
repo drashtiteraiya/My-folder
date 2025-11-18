@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>card</title>
+	<style type="text/css">
+ .project_work {
+  min-height: 620px;
+}
+
+.project_work > h1 {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.project_work > h1 > span {
+  color: #ff6138;
+}
+
+/* Image container */
+.imgcard1 {
+  position: relative;
+  overflow: hidden;
+  height: 240px;
+  width: 360px;
+}
+
+/* Image styling */
+.imgcard1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Transparent overlay */
+.imgcard1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(60, 87, 233, 0.4); /* #3c57e9 with 40% transparency */
+  transition: all 0.3s ease;
+  opacity: 0; /* Hidden by default */
+}
+
+/* Optional hover effect (overlay appears on hover) */
+.imgcard1:hover::after {
+  opacity: 1;
+}
+
+	</style>
+</head>
+<body>
+  <div class="project_work container">
+    <h1 class="text-center">Projects We Worked On<span>.</span></h1>
+  
+    <div class="row justify-content-around mt-5">
+      <div class="col-12 col-md-4 col-lg-3 project-card">
+        <div class="image-container">
+          <img src="images/project-work-section/img1.png" alt="Project 1" class="img-fluid">
+          <div class="overlay">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <p class="overlay-text">Project 1</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-12 col-md-4 col-lg-3 project-card">
+        <div class="image-container">
+          <img src="images/project-work-section/img2.png" alt="Project 2" class="img-fluid">
+          <div class="overlay">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <p class="overlay-text">Project 2</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-12 col-md-4 col-lg-3 project-card">
+        <div class="image-container">
+          <img src="images/project-work-section/img3.png" alt="Project 3" class="img-fluid">
+          <div class="overlay">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <p class="overlay-text">Project 3</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
